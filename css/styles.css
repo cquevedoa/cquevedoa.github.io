@@ -1,0 +1,126 @@
+/* Globales */
+img {
+    max-width: 100%;
+}
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+a {
+   color: #0f4c81; 
+}
+a:hover {
+    color: #ed3237;
+}
+
+/** Utilidades **/
+.fw-300 {
+    font-weight: 300;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.centrar-texto {
+    text-align: center;
+    
+}
+.d-block {
+    display: block!important;
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+.encabezado {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+.cursiva {
+    font-style: italic;
+}
+.subtitulos {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main.container-md {
+    margin: auto;
+    height: 100vh;
+}
+.naranja {
+background-color: #ae5128;
+}
+.azul {
+background-color: aquamarine;
+}
+
+.verde {
+background-color: green;
+}
+
+.blanco-v {
+background-color: antiquewhite;
+
+}
+.negro {
+background-color: black;
+color: white;
+
+}
+.rojo {
+background-color: red;
+}
+img.perfil {
+max-width: 120px;
+height: 120px;
+border-radius: 50%;
+}
+img.logo {
+    max-width: 30px;
+    height: auto;
+}
+main.container-sm {
+  margin-top: 1rem;
+}
+a.nav-link {
+    border: 2px solid #333;
+    /* background-color: #ea5128; */
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s ease-out;
+}
+.spotify:hover {
+    background-color: #1DB954;
+    border-color:#1DB954;
+    color: white;
+}
+.cquevedoa:hover {
+    background-color: #eb9b51;;
+    color: white;
+    border-color: #eb9b51;
+}
+.wordpress:hover {
+    background-color: #FF0000;
+    color: white;
+    border-color: #FF0000;
+}
+.cqwerty:hover {
+    background-color:#014f84;
+    color: white;
+    border-color:#014f84;
+}
+.twitter:hover {
+    background-color: #1DA1F2;
+    color: white;
+    border-color: #1DA1F2;
+}
+.centrado{
+    margin: auto;
+  }
+  .col-md {
+      margin-top: 1rem;
+  }
+
+footer p{
+    align-items: center;
+}
