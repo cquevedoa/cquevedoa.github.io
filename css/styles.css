@@ -46,7 +46,7 @@ a:hover {
 
 main.container-md {
     margin: auto;
-    height: 100vh;
+    height: auto;
 }
 .naranja {
 background-color: #ae5128;
