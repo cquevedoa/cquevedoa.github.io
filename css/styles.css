@@ -44,7 +44,7 @@ a:hover {
     font-size: 2rem;
 }
 
-main.container-md {
+main.container-lg {
     margin: auto;
     height: auto;
 }
@@ -117,7 +117,7 @@ a.nav-link {
 .centrado{
     margin: auto;
   }
-  .col-md {
+  .col-lg {
       margin-top: 1rem;
   }
 
