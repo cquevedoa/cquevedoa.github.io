@@ -1,0 +1,7 @@
+.d-whole {
+  height: 100vh;
+}
+img.logo {
+  max-width:7.5rem;
+  border-radius: 50%;
+}
