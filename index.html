@@ -31,7 +31,7 @@
   <link href="https://www.carlosquevedo.com.ar" rel="canonical"/>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
-  <link rel="stylesheet" href="css/no-style.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome 5.14 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
@@ -40,14 +40,35 @@
 
 
 <div class="jumbotron text-center d-whole" style="margin-bottom:0">
-  <div><img class="img-fluid logo mx-auto d-block" src="img/ee-profile-cqa.png" alt="Carlos Quevedo"></div> 
-  <p><h1>Carlos Quevedo</h1>
+<div>
+  <img class="img-fluid logo mx-auto d-block" src="img/ee-profile-cqa.png" alt="Carlos Quevedo">
+</div> 
+  <p>
+    <h1>Carlos Quevedo</h1>
   <h4 class="description">Jr. Web Developer</h4></p>
   <p>Buenos Aires &copy 2020</p>
-  <p> <a href="https://github.com/cquevedoa"><i class="fab fa-github"> </i></a>  <a href="https://linkedin.com/in/cquevedoa"><i class="fab fa-linkedin"> </i></a></p>
-</div>
 
 
+  
+
+  <button onclick="saludar()" ondblclick="cerrar()">Links</button>
+  <div class="popUp" id="modal">
+      <a href="https://github.com/cquevedoa"><i class="fab fa-github"> </i></a>
+    
+      <a href="https://linkedin.com/in/cquevedoa"><i class="fab fa-linkedin"> </i></a>
+        <br><button onclick="cerrar()">Cerrar</button>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -57,130 +78,3 @@
 
 </body>
 </html>
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-   
-</head>
-
-<body class="bg-light"> -->
-
-  <!-- <header class="container-md">
-
-
-
-    <div class="container-md sub-container">
-
-      <div class="row">
-        <div class="col-md ">
-      <a class="btn btn-outline-dark btn-lg btn-block "  href="">
-        <img class="img-fluid logo mx-auto d-block" src="img/ee-profile-cqa.png" alt="Carlos Quevedo">
-      </a>
-        
-      <a class="btn btn-outline-dark btn-lg btn-block "  href="">
-        <h1 class="text-center">Carlos Quevedo</h1>
-            <p class="text-center font-weight-normal description">Web Developer / Learner</p>
-            <p class="text-center location"><i class="far fa-map"> </i> Buenos Aires</p>
-      </a>
-      
-
-    </div>
-      
-    <div class="col-md ">
-      <a class="btn btn-outline-dark btn-lg btn-block spotify"  href="http://gestyy.com/ew58Kt" title="Mi podcast">
-        <i class="fab fa-spotify"> </i> Podcast
-      </a>
-      <a class="btn btn-outline-dark btn-lg btn-block cqwerty" href="http://gestyy.com/ew57Ja" title="Servicio Técnico CQWERTY">
-        <i class="fa fa-laptop-code"></i> Servicio Técnico
-      </a>
-    </div>
-
-    <div class="col-md ">
-    <a class="btn btn-outline-dark btn-lg btn-block instagram" href="http://gestyy.com/ew59u3">
-      <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a class="btn btn-outline-dark btn-lg btn-block twitter"  href="http://gestyy.com/ew59uF">
-      <i class="fab fa-twitter"></i> Twitter
-    </a>
-
-  </div>
-      
-      </div>
-
-      
-
-        
-         <a class="btn btn-outline-dark btn-lg btn-block" href="http://gestyy.com/ew579B" title="Contáctame por Linkedin ">
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-        <a class="btn btn-outline-dark btn-lg btn-block" href="http://gestyy.com/eqLJs7" title="Github">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-        <a class="btn btn-outline-dark btn-lg btn-block"  href="http://gestyy.com/eqLHcv" title="Envíame un Email">
-          <i class="far fa-envelope"></i> Email
-        </a>
-        <a class="btn btn-outline-dark btn-lg btn-block"  href="http://gestyy.com/ew58Kt" title="Mi podcast">
-          <i class="fa fa-coffee"> </i> Cafecito
-        </a>
-        <a class="btn btn-outline-dark btn-lg btn-block"  href="http://gestyy.com/ew58Kt" title="Mi podcast">
-          <i class="fab fa-paypal"> </i> PayPal
-        </a> -->
-        <!-- <a class="btn btn-outline-dark btn-lg btn-block"  href="http://gestyy.com/w9e2ci" title="Mi Blog">
-          <i class="fab fa-wordpress"></i> Mi Blog
-        </a> -->
-        
-        
-        <!-- <a class="btn btn-outline-dark btn-lg btn-block telegram" href="#" title="Servicio Técnico CQWERTY">
-          <i class="fab fa-telegram"></i> Telegram
-        </a>
-        <a class="btn btn-outline-dark btn-lg btn-block youtube" href="#" title="Servicio Técnico CQWERTY">
-          <i class="fab fa-youtube"></i> Youtube
-        </a>
-        <a class="btn btn-outline-dark btn-lg btn-block medium" href="#" title="Servicio Técnico CQWERTY">
-          <i class="fab fa-medium"></i> Neurotransmisiones
-        </a> -->
-        
-       
-
-      <!-- </div>
-
-  
-    </div> -->
-
-  <!-- </header> -->
-<!-- 
-  <div class="container-md">
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
-        
-</div>
-          
-            
-              <footer class="bg-dark">
-                <div class="container-sm">
-                <img class="img-fluid mx-auto d-block developer" src="/img/cquevedoa.png" alt="CARLOSQUEVEDO.com.ar">
-              </div>
-              </footer>
-
-          
-        
-
-
-    
-    
-</body>
-</html> -->
