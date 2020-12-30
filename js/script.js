@@ -1,3 +1,7 @@
+window.addEventListener("load", function(){
+    resaltador();
+})
+
 function saludar() {
     
 
@@ -32,3 +36,13 @@ function obtenerMail() {
 
 
     //VARIOS ELEMENTOS
+
+    let parrafos = document.querySelectorAll("p");
+
+  for (let i = 0; i < parrafos.length; i++) {
+      parrafos[i].addEventListener("mouseover", function(){
+        //   this.style.backgroundColor = "yellow";
+        this.classList.toggle("resaltar");
+      })
+      
+  }

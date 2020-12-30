@@ -107,6 +107,10 @@ img.logo {
     background-color: red;
   }
 
+.resaltar {
+  background-color: black;
+  color: white;
+}
 
 /* SOCIAL ICONS */
 .socials-icons {
