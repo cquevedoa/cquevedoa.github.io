@@ -1,5 +1,7 @@
 header {
-    padding-top: 1rem;
+  padding-top:30px;
+  height: calc(100vh - 100px);
+  min-height: 700px;
 }
 
 span.typo {
@@ -17,6 +19,15 @@ nav.links a {
     font-family: 'Roboto', sans-serif;
     transition: all 0.5s ease-out;
 }
+
+
+.container-md {
+  margin: auto;
+  max-width: 700px;
+    
+}
+
+/* DISPLAY UTILITIES */
 .d-whole {
   height: 100vh;
 }
@@ -29,58 +40,84 @@ img.logo {
     background: #aaa;
   }
 
+  /* BUTTONS */
 .btn-block {
-    height: 250px;
     border-radius: 30px;
+    transition: all 0.5s ease-out;
 }
-.cqwerty:hover {
+.btn:hover {
+  color: white;
+}
+.fab {
+  font-size: 16px;
+  color: #333!important;
+  padding: 5px;
+  transition: all 0.5s ease-out;
+}
+.fab:hover {
+  color: white!important;
+}
+.linkedin:hover {
     background-color: #014f84;
     border-color:#014f84;
-    color: white;
+    
+    border-radius: 15%;
+}
+.cqwerty:hover {
+  background-color: #014f84;
+  border-color:#014f84;
+  
 }
 .medium:hover {
     background-color: #1aac6e;
     border-color:#1aac6e;
-    color: white;
+    
 }
 .spotify:hover {
     background-color: #1DB954;
     border-color:#1DB954;
-    color: white;
+    
     align-content: center;
 }
 .apple:hover {
     background-color: #882fc7;
-    color: white;
+    
     border-color: #882fc7;
+}
+.blogger:hover {
+  background-color: #f97718;
+  
+  border-color: #f97718;
 }
 .google:hover {
     background-color: #4285F4;
-    color: white;
+    
     border-color: #4285F4;
 }
 .youtube:hover {
     background-color: #FF0000;
-    color: white;
+    
     border-color: #FF0000;
 }
 .telegram:hover {
     background-color:#2ca7ed;
-    color: white;
+    
     border-color:#2ca7ed;
 }
 .twitter:hover {
     background-color: #1DA1F2;
-    color: white;
+    
     border-color: #1DA1F2;
+    border-radius: 15%;
 }
-.container-md {
-    max-width: 800px;
+
+.instagram:hover {
+  background-color: #C13584;
+  border-color: #C13584;
+  border-radius: 15%;
 }
-.sub-container {
-    border: 1px solid black;
-    border-radius: 30px;
-}
+
+
 
 
 .naranja {
@@ -100,7 +137,7 @@ img.logo {
   }
   .negro {
     background-color: black;
-    color: white;
+    
   
   }
   .rojo {
@@ -109,7 +146,7 @@ img.logo {
 
 .resaltar {
   background-color: black;
-  color: white;
+  
 }
 
 /* SOCIAL ICONS */
@@ -136,11 +173,11 @@ footer .developer {
   padding: 30px;
   background-color: rgb(57, 139, 247);
   text-align: center;
-  color: white;
+  
   display: none;
 }
 .popUp a {
-  color: white;
+  
   font-size: 30px;
   padding: 0.5rem;
 }
