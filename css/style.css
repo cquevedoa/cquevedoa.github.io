@@ -69,10 +69,22 @@ img.logo {
   border-color:#014f84;
   
 }
+.cafecito:hover {
+  background-color: #8fa2cc;
+  border-color: #8fa2cc;
+}
 .medium:hover {
     background-color: #1aac6e;
     border-color:#1aac6e;
     
+}
+.amazon:hover {
+  background-color: #ff9900;
+  border-color: #ff9900;
+}
+.paypal:hover {
+  background-color: #057fec;
+  border-color: #057fec;
 }
 .spotify:hover {
     background-color: #1DB954;
@@ -94,6 +106,10 @@ img.logo {
   background-color: #f97718;
   
   border-color: #f97718;
+}
+.wordpress:hover {
+  background-color: #dd382d;
+  border-color:#dd382d;
 }
 .google:hover {
     background-color: #4285F4;
@@ -118,7 +134,11 @@ img.logo {
     border-color: #1DA1F2;
     border-radius: 15%;
 }
-
+.roisrv:hover {
+  background-color:#F5B2B6;
+    border-color:#F5B2B6;
+  
+}
 .instagram:hover {
   background-color: #C13584;
   border-color: #C13584;
