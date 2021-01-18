@@ -55,7 +55,7 @@ img.logo {
   transition: all 0.5s ease-out;
 }
 .fab:hover,
-.far:hover {
+.far:hover:not(.fa-map) {
   color: white !important;
 }
 
