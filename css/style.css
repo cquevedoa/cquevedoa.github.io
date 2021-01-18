@@ -13,7 +13,7 @@ nav.links {
     width:100%;
 }
 nav.links a {
-    border: 3px solid #333;
+    border: 5px solid #333;
     /* background-color: #ea5128; */
     padding: 0.75rem;
     font-family: 'Roboto', sans-serif;
@@ -48,20 +48,21 @@ img.logo {
 .btn:hover {
   color: white;
 }
-.fab {
+.fab, .far {
   font-size: 16px;
   color: #333!important;
   padding: 5px;
+  
   transition: all 0.5s ease-out;
 }
-.fab:hover {
-  color: white!important;
+.fab:hover, .far:hover {
+    color: white!important;
 }
+
 .linkedin:hover {
     background-color: #014f84;
     border-color:#014f84;
-    
-    border-radius: 15%;
+    border-radius: 15%;    
 }
 .cqwerty:hover {
   background-color: #014f84;
@@ -84,6 +85,11 @@ img.logo {
     
     border-color: #882fc7;
 }
+.github:hover{
+  background-color: #24292e;
+  border-color: #24292e;
+  border-radius: 15%;
+}
 .blogger:hover {
   background-color: #f97718;
   
@@ -96,17 +102,19 @@ img.logo {
 }
 .youtube:hover {
     background-color: #FF0000;
-    
     border-color: #FF0000;
+}
+.gmail:hover {
+  background-color: #FF0000;
+  border-color: #FF0000;
+  border-radius: 15%;
 }
 .telegram:hover {
     background-color:#2ca7ed;
-    
     border-color:#2ca7ed;
 }
 .twitter:hover {
     background-color: #1DA1F2;
-    
     border-color: #1DA1F2;
     border-radius: 15%;
 }
