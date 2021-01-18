@@ -3,6 +3,11 @@ header {
   height: calc(100vh - 100px);
   min-height: 700px;
 }
+@media (min-width: 576px) and (max-width: 700px) { 
+  header {
+    height: 100%;
+  }
+ }
 
 span.typo {
   font-style: italic;
