@@ -1,30 +1,28 @@
 header {
-  padding-top:30px;
+  padding-top: 30px;
   height: calc(100vh - 100px);
   min-height: 700px;
 }
 
 span.typo {
-    font-style: italic;
+  font-style: italic;
 }
 nav.links {
-    display: flex;
-    flex-direction: column;
-    width:100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 nav.links a {
-    border: 5px solid #333;
-    /* background-color: #ea5128; */
-    padding: 0.75rem;
-    font-family: 'Roboto', sans-serif;
-    transition: all 0.5s ease-out;
+  border: 5px solid #333;
+  /* background-color: #ea5128; */
+  padding: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.5s ease-out;
 }
-
 
 .container-md {
   margin: auto;
   max-width: 700px;
-    
 }
 
 /* DISPLAY UTILITIES */
@@ -32,154 +30,132 @@ nav.links a {
   height: 100vh;
 }
 img.logo {
-  max-width:7.5rem;
+  max-width: 7.5rem;
   border-radius: 50%;
 }
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
 
-  /* BUTTONS */
+/* BUTTONS */
 .btn-block {
-    border-radius: 30px;
-    transition: all 0.5s ease-out;
+  border-radius: 30px;
+  transition: all 0.5s ease-out;
 }
 .btn:hover {
   color: white;
 }
-.fab, .far {
+.fab,
+.far {
   font-size: 16px;
-  color: #333!important;
+  color: #333 !important;
   padding: 5px;
-  
+
   transition: all 0.5s ease-out;
 }
-.fab:hover, .far:hover {
-    color: white!important;
+.fab:hover,
+.far:hover {
+  color: white !important;
 }
 
-.linkedin:hover {
-    background-color: #014f84;
-    border-color:#014f84;
-    border-radius: 15%;    
+.amazon:hover {
+  background-color: #ff9900;
+  border-color: #ff9900;
 }
-.cqwerty:hover {
-  background-color: #014f84;
-  border-color:#014f84;
-  
+.apple:hover {
+  background-color: #882fc7;
+  border-color: #882fc7;
+}
+.blogger:hover {
+  background-color: #f97718;
+  border-color: #f97718;
 }
 .cafecito:hover {
   background-color: #8fa2cc;
   border-color: #8fa2cc;
 }
+.cquevedoa:hover {
+  color: #3282b8;
+  border-color: hsl(204, 77%, 26%);
+  background-color: white;
+}
+.cqwerty:hover {
+  background-color: #014f84;
+  border-color: #014f84;
+}
+.gflorezm:hover {
+  border-color: #0e6a00;
+  background-color: white;
+  color: #64b100;
+}
+
+.github:hover {
+  background-color: #24292e;
+  border-color: #24292e;
+  border-radius: 15%;
+}
+.gmail:hover {
+  background-color: #d44638;
+  border-color: #d44638;
+  border-radius: 15%;
+}
+.google:hover {
+  background-color: #4285f4;
+  border-color: #4285f4;
+}
+.instagram:hover {
+  background-color: #c13584;
+  border-color: #c13584;
+  border-radius: 15%;
+}
+.linkedin:hover {
+  background-color: #014f84;
+  border-color: #014f84;
+  border-radius: 15%;
+}
 .medium:hover {
-    background-color: #1aac6e;
-    border-color:#1aac6e;
-    
+  background-color: #1aac6e;
+  border-color: #1aac6e;
 }
-.amazon:hover {
-  background-color: #ff9900;
-  border-color: #ff9900;
-}
+
 .paypal:hover {
   background-color: #057fec;
   border-color: #057fec;
 }
 .spotify:hover {
-    background-color: #1DB954;
-    border-color:#1DB954;
-    
-    align-content: center;
+  background-color: #1db954;
+  border-color: #1db954;
+  align-content: center;
 }
-.apple:hover {
-    background-color: #882fc7;
-    
-    border-color: #882fc7;
-}
-.github:hover{
-  background-color: #24292e;
-  border-color: #24292e;
-  border-radius: 15%;
-}
-.blogger:hover {
-  background-color: #f97718;
-  
-  border-color: #f97718;
-}
-.wordpress:hover {
-  background-color: #dd382d;
-  border-color:#dd382d;
-}
-.google:hover {
-    background-color: #4285F4;
-    
-    border-color: #4285F4;
-}
-.youtube:hover {
-    background-color: #FF0000;
-    border-color: #FF0000;
-}
-.gmail:hover {
-  background-color: #FF0000;
-  border-color: #FF0000;
-  border-radius: 15%;
+
+.roisrv:hover {
+  background-color: #f5b2b6;
+  border-color: #f5b2b6;
 }
 .telegram:hover {
-    background-color:#2ca7ed;
-    border-color:#2ca7ed;
+  background-color: #2ca7ed;
+  border-color: #2ca7ed;
 }
 .twitter:hover {
-    background-color: #1DA1F2;
-    border-color: #1DA1F2;
-    border-radius: 15%;
-}
-.roisrv:hover {
-  background-color:#F5B2B6;
-    border-color:#F5B2B6;
-  
-}
-.instagram:hover {
-  background-color: #C13584;
-  border-color: #C13584;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
   border-radius: 15%;
 }
 
+.wordpress:hover {
+  background-color: #dd382d;
+  border-color: #dd382d;
+}
 
-
-
-.naranja {
-    background-color: #ae5128;
-  }
-  .azul {
-    background-color: aquamarine;
-  }
-  
-  .verde {
-    background-color: green;
-  }
-  
-  .blanco-v {
-    background-color: antiquewhite;
-  
-  }
-  .negro {
-    background-color: black;
-    
-  
-  }
-  .rojo {
-    background-color: red;
-  }
-
-.resaltar {
-  background-color: black;
-  
+.youtube:hover {
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 /* SOCIAL ICONS */
 .socials-icons {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 footer {
@@ -194,18 +170,16 @@ footer .container-sm {
 
 footer .developer {
   width: 50px;
-
 }
 
 .popUp {
   padding: 30px;
   background-color: rgb(57, 139, 247);
   text-align: center;
-  
+
   display: none;
 }
 .popUp a {
-  
   font-size: 30px;
   padding: 0.5rem;
 }
