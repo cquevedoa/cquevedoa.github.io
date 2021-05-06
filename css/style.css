@@ -29,6 +29,7 @@ header.pages {
 .btn:hover {
   color: white;
 }
+.fa,
 .fab,
 .far {
   font-size: 16px;
@@ -37,6 +38,7 @@ header.pages {
 
   transition: all 0.5s ease-out;
 }
+.fa:hover,
 .fab:hover,
 .far:hover:not(.fa-map) {
   color: white !important;
@@ -87,7 +89,7 @@ footer .developer {
 .spotify:hover {  background-color: #1db954;  border-color: #1db954;  align-content: center;}
 .telegram:hover {  background-color: #2ca7ed;  border-color: #2ca7ed;}
 .twitter:hover {  background-color: #1da1f2;  border-color: #1da1f2;  /* border-radius: 15%; */}
-.wordpress:hover {  background-color: #dd382d;  border-color: #dd382d;}
+.portfolio:hover {  background-color: #dd382d;  border-color: #dd382d;border-radius: 15%;}
 .youtube:hover {  background-color: #ff0000;  border-color: #ff0000;  border-radius: 15%;}
 
 /* SOCIAL ICONS */
