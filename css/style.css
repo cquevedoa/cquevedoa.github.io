@@ -1,7 +1,5 @@
 .title.main {
-  padding-top: 30px; 
-  height: calc(100vh - 100px);
-  min-height: 700px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
