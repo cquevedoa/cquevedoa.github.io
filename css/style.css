@@ -18,15 +18,17 @@ nav ul li a:hover {
   color: var(--link-color);
 }
 
-
+#btn-menu {
+  display: none;
+}
 
 #icon {
   width: 30px;
   cursor: pointer;
-  transition: ease-in-out 0.3s;
+  transition: ease .1s;
 }
 .icon-change {
-  transform: rotate(360deg);
+  transform: rotateZ(360deg);
 }
 
 .info {
@@ -126,3 +128,81 @@ nav ul li a:hover {
 
 
 
+@media (max-width: 800px) {
+  .logo {
+    width: 50px;
+  }
+  nav {
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  nav ul {
+    
+    position: fixed;
+    top: 80px;
+    left: 100%;
+    background-color: antiquewhite;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-icons { 
+    display: flex;
+  }
+  .fa {
+    font-size: 2rem;
+    margin-left: 15px;
+  }
+
+ #btn-menu {
+  display: block;
+  cursor: pointer;
+  transition: ease .1s;
+
+ }
+    #icon {
+    cursor: pointer;
+    transition: ease .1s;
+  }
+  
+  
+  
+  
+  .img-box {
+    width: 100%;
+  
+  }
+  .img-box img {
+    width:50%;
+    height: auto;
+  }
+  
+  
+  
+  .social-links {
+    margin-left: 8%;
+    margin-top: 100px;
+  
+  }
+  .social-links a {
+    font-size: 30px;
+    color: var(--txt-color);
+    margin-right: 20px;
+    transition: ease-in-out .2s;
+  }
+  .social-links a:hover {
+    color: var(--link-color);
+  }
+  
+  
+  
+  
+  
+}
