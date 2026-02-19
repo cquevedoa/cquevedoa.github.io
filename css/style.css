@@ -147,8 +147,8 @@ nav ul li a:hover {
 .dark-theme .info .cta-link:hover, .dark-theme .cta-group .cta-link:hover { color: var(--link-color); }
   
   .typing-demo {
-    width: 23ch;
-    animation: typing 2s steps(23), blink .5s step-end infinite alternate;
+    width: 34ch;
+    animation: typing 2s steps(34), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
