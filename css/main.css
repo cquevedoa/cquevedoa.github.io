@@ -10,11 +10,16 @@
         --light-color: #d3d3d3;
         --old-blue: #014f84;
         --txt-color: #434343;
+        --button-bg: var(--txt-color);
+        --button-text: #ffffff;
         --bg-color: #ececec;
         }
     .dark-theme {
-        --bg-color: #212121;
-        --txt-color: #ececec;
+        --bg-color: #121212;
+        --txt-color: #e8e8e8;
+        /* keep same link color across themes */
+        --button-bg: #ffffff; /* button initially white in dark mode */
+        --button-text: #0b0b0b; /* dark text on white button */
     }
 
 /* BOTONES */
@@ -34,6 +39,7 @@ body {
     line-height: 2;
     margin: 0;
     background: var(--bg-color);
+    transition: background-color .28s ease, color .28s ease;
 }
 header {
     height: 100vh;
@@ -82,3 +88,9 @@ button {
   .featured {
     grid-column: span 2;
   }
+
+/* Cambiar líneas del logo a blanco en modo oscuro */
+.dark-theme .logo .str0,
+.dark-theme .logo .str1 {
+  stroke: #ffffff !important;
+}
