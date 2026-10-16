@@ -1,4 +1,4 @@
-const CACHE = 'cq-v3';
+const CACHE = 'cq-v4';
 const SHELL = [
   './', 'index.html', 'css/styles.css', 'js/main.js', 'manifest.webmanifest',
   'fonts/ocraext.woff2', 'img/me.webp', 'img/huella.webp', 'img/icon.svg',
