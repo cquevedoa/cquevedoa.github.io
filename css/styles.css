@@ -91,11 +91,8 @@ h1 span{color:var(--brand)}
 /* ---- Secciones ---- */
 .block{max-width:70ch;margin:0 auto;padding:clamp(3rem,8vw,6rem) 1rem;border-top:1px solid var(--line)}
 h2{margin:0 0 1rem;font:1.75rem/1.2 var(--font-display);text-transform:uppercase}
-.services,.actions{display:grid;gap:.75rem;margin:0;padding:0;list-style:none}
-.services h3{margin:0;font-size:1.1rem}
-.services p{margin:.25rem 0 0;color:var(--muted)}
-.card,.action{position:relative;overflow:hidden;display:flex;align-items:center;gap:1rem;padding:1rem;background:var(--surface);border:1px solid var(--line);border-radius:16px}
-.card{align-items:flex-start}
+.actions{display:grid;gap:.75rem;margin:0;padding:0;list-style:none}
+.action{position:relative;overflow:hidden;display:flex;align-items:center;gap:1rem;padding:1rem;background:var(--surface);border:1px solid var(--line);border-radius:16px}
 .card-icon{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--tonal);color:var(--brand)}
 .card-icon svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .card-icon svg.fill{fill:currentColor;stroke:none}

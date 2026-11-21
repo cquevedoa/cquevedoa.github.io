@@ -147,27 +147,27 @@
       }
 
       const endpoint = form.dataset.endpoint;
-      if (endpoint) {
-        setBusy(true);
-        try {
-          const res = await fetch(endpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-            body: JSON.stringify({ name: data.name, email: data.email, message: data.message })
-          });
-          if (!res.ok) throw new Error(res.status);
-          form.reset(); clearErrs();
-          setStatus('¡Gracias! Recibí tu mensaje y te respondo a la brevedad.', 'ok');
-        } catch (_) {
-          setStatus('No se pudo enviar el mensaje. Probá de nuevo o escribime por email.', 'fail');
-        } finally { setBusy(false); }
-      } else {
-        const to = form.dataset.email;
-        const subject = `Contacto desde la web — ${data.name}`;
-        const body = `${data.message}\n\n— ${data.name} (${data.email})`;
-        location.href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        setStatus(`Se abrió tu app de correo con el mensaje listo. Si no pasó nada, escribime a ${to}.`, 'ok');
+      if (!endpoint) {
+        setStatus('El formulario todavía no está configurado. Podés escribirme por LinkedIn.', 'fail');
+        return;
       }
+
+      setBusy(true);
+      try {
+        // text/plain evita el preflight OPTIONS (CORS) que Google Apps Script no responde
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify({ name: data.name, email: data.email, message: data.message })
+        });
+        if (!res.ok) throw new Error(res.status);
+        const result = await res.json().catch(() => null);
+        if (result && result.ok === false) throw new Error(result.error || 'error');
+        form.reset(); clearErrs();
+        setStatus('¡Gracias! Recibí tu mensaje y te respondo a la brevedad.', 'ok');
+      } catch (_) {
+        setStatus('No se pudo enviar el mensaje. Probá de nuevo o escribime por LinkedIn.', 'fail');
+      } finally { setBusy(false); }
     });
   }
 
